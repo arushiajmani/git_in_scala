@@ -1,0 +1,29 @@
+site_name: we_git
+
+nav:
+  - Home: index.md
+  - History: abtgit.md
+  - Installation: install.md
+  - Features: features.md
+  - Config: config.md
+  - Resources:
+    - Learning Materials: learning.md
+    - Acknowledgements: ack.md
+
+plugins:
+  - mermaid2
+
+markdown_extensions:
+  - attr_list
+
+theme:
+  name: mkdocs
+  locale: en
+  nav_style: primary
+  include_sidebar: true
+  user_color_mode_toggle: true
+  highlightjs: true
+  include_homepage_in_sidebar: true
+  hljs_languages:
+    - go
+    - scala
